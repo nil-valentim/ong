@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforma Vidas - Voluntariado</title>
+</head>
+<body>
+
+<header>
+    <img src="img/logo.png" alt="Logo Transforma Vidas" width="333">
+    <h1>Transforma Vidas</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="voluntariado.html">Voluntariado</a></li>
+            <li><a href="doacoes.html">Doações</a></li>
+            <li><a href="transparencia.html">Transparência</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Seja um Voluntário</h2>
+        <p>Preencha o formulário abaixo para se candidatar a uma vaga de voluntariado em nossos projetos sociais.</p>
+    </section>
+</main>
+
+<form action="#" method="post">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+        <small>Informe seu nome completo.</small>
+        <label for="cpf">CPF:</label>
+
+        <input type="text" id="cpf" name="cpf" required placeholder="xxx.xxx.xxx-xx"
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+            tittle="Digite no formato xxx.xxx.xxx.-xx">
+            <small>Informe seu CPF no formato: 123.456.789-00</small>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+        <small>Informe um e-mail válido para contato.</small>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx"
+            pattern="\(\d{2}\) \d{5}-\d{4}"
+            title="Digite no formato (xx) xxxxx-xxxx">
+            <small>Informe seu telefone com DDD, ex: (11) 99999-9999</small>
+        
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Disponibilidade</legend>
+<p>Dias disponíveis para voluntariado:</p>
+
+        <input type="checkbox" id="segunda" name="dias[]" value="segunda">
+        <label for="segunda">Segunda-feira</label><br>
+
+        <input type="checkbox" id="terca" name="dias[]" value="terca">
+        <label for="terca">Terça-feira</label><br>
+
+        <input type="checkbox" id="quarta" name="dias[]" value="quarta">
+        <label for="quarta">Quarta-feira</label><br>
+
+        <input type="checkbox" id="quinta" name="dias[]" value="quinta">
+        <label for="quinta">Quinta-feira</label><br>
+
+        <input type="checkbox" id="sexta" name="dias[]" value="sexta">
+        <label for="sexta">Sexta-feira</label><br>
+
+        <input type="checkbox" id="sabado" name="dias[]" value="sabado">
+        <label for="sabado">Sábado</label><br>
+        <small>Selecione dos dias em que você pode atuar.</small>
+
+        <p>Turnos disponíveis:</p>
+
+        <input type="checkbox" id="manha" name="turno[]" value="manha">
+        <label for="manha">Manhã</label>
+
+        <input type="checkbox" id="tarde" name="turno[]" value="tarde">
+        <label for="tarde">Tarde</label>
+
+        <input type="checkbox" id="noite" name="turno[]" value="noite">
+        <label for="noite">Noite</label>
+        <small>Marque os turnos em que você está disponível.</small>
+
+    </fieldset>
+
+
+        <fieldset>
+        <label for="habilidades">Principais Habilidades:</label>
+    <input type="text" id="habilidades" name="habilidades" placeholder="Ex: informática, ensino, saúde..." required>
+            <small>Liste suas habilidades que pode contribuir para os projetos.</small>
+    <label for="motivacao">Motivação para ser voluntário:</label>
+    <textarea id="motivacao" name="motivacao" rows="5" placeholder="Conte um pouco sobre o que te motiva..." required></textarea>
+            <small>Escreva brevemente o que te motiva a se tornar um voluntário.</small>
+        </fieldset>
+
+    <button type="submit">Enviar Inscrição</button>
+</form>
+
+
+<footer>
+    <p>&copy; 2025 Transforma Vidas - Todos os direitos reservados.</p>
+    <p>Contato: <a href="mailto:contato@transformavidas.org">contato@transformavidas.org</a></p>
+</footer>
+
+</body>
+</html>
