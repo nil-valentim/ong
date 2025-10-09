@@ -42,7 +42,7 @@ Para visualizar o site, não é necessário nenhum servidor ou instalação comp
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
-    cd nome-do-repositorio
+    cd ong
     ```
 3.  Abra o arquivo `index.html` diretamente no seu navegador de preferência (Google Chrome, Firefox, etc. ).
 
