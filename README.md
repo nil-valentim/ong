@@ -37,7 +37,7 @@ Para visualizar o site, não é necessário nenhum servidor ou instalação comp
 
 1.  Clone este repositório para sua máquina local:
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/nil-valentim/ong.git
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
